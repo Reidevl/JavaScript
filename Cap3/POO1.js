@@ -3,11 +3,22 @@ class animal{
         this.especie = especie;
         this.edad = edad;
         this.color = color;
-
+        this.info = `Soy ${this.especie}, tengo ${this.edad} años 
+        y soy de color ${this.color}`
+    }
+    verInfo() {
+        document.write(this.info + "<br>")
     }
 }
 
-let perro = new animal("perro", 5, "rojo");
+let dog = new animal("dog", 5, "brown");
+let cat = new animal("cat", 2, "black");
+let bird = new animal("bird", 1, "green");
 
-// document.write(perro)
-console.log(perro)
+// document.write(dog.info + "<br>");
+// document.write(cat.info + "<br>");
+// document.write(bird.info + "<br>")
+
+dog.verInfo();
+cat.verInfo();
+bird.verInfo()
