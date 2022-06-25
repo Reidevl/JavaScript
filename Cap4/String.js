@@ -5,13 +5,29 @@
 
 // document.write(resultado.length); 
 
-let numeros = ["abecedario","manzana", "pedro", "dedo", "bobo"];
+// let cadena = "a,b,c"
+// let cadena1 = cadena.split(",")
 
-document.write(numeros + "<br>");
-// let resultado = numeros.reverse();
+// document.write(cadena1.push("Hollaaaa") + " <br>");
+// let numeros = ["abecedario","manzana", "pedro", "dedo", "bobo"];
 
-numeros.splice(-2,0, "roberto", "gustavo", "maximo");
+// document.write(numeros + "<br><br>");
+// // let resultado = numeros.reverse();
 
-document.write(numeros);
+// numeros.splice(-2,0, "roberto", "gustavo", "maximo");
+
+// document.write(numeros);
+
+//Metodos accesores
+
+let numeros = ["abecedario", "manzana", "pedro", "dedo", "bobo"];
+
+document.write(numeros + "<br><br>");
+
+// let resultado = numeros.join("<br>elemento: ");
+
+resultado = numeros.filter(numero => numero.length>4)
+
+document.write(resultado)
 
  
