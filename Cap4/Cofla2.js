@@ -51,5 +51,3 @@ mostrarInformacion("logica");
 document.write(cantidadDeClases("cofla"));
 document.write(cantidadDeClases("maria"));
 document.write(cantidadDeClases("pedro"));
-
-
