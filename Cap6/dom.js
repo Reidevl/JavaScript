@@ -1,6 +1,16 @@
 // parrafo = document.querySelectorAll(".parrafo");   
 // document.write(parrafo[4])
 
-const titulo = document.querySelector(".titulo")
 
-titulo.setAttribute("title","jajajaja xdx")
+// titulo.setAttribute("title","hola papu xdx")
+
+// const input = document.querySelector(".input-normal");
+
+// input.required = "requied";
+
+// document.write(input.type) 
+
+const titulo = document.querySelector(".titulo");
+
+titulo.style.padding = "30px"; 
+titulo.style.backgroundColor = "#48e"; 
